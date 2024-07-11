@@ -11,7 +11,7 @@
     height: 370px;
     margin-left: 125px;
     display: inline-block;
-    box-shadow: 5px 21px 30px rgba(13, 227, 255, 0.5);
+    box-shadow: 5px 21px 25px #ADFF00;
     border-radius: 90px;
     animation: flutuar 3s ease-in-out infinite;
     }
@@ -41,17 +41,22 @@ header {
 
 .link-header {
     font-weight: 600;
-    Size: 24px;
+    font-size: 24px;
     line-height: 29.26px;
     color: #989D9C;
     cursor: pointer;
-    margin-right: 23px;
+    margin-right: 30px;
     text-decoration: none;
 
 }
 
+.link-header:hover{
+    font-size: 30px;
+    text-decoration: 3px underline #ADFF00;
+    transition: ease-in-out .5s;
+}
+
 .log_in {
-    width: 60px;
     cursor: pointer;
     width: 130px;
     height: 41px;
@@ -63,6 +68,12 @@ header {
     line-height: 29.26px;
     size: 24px;
     border: none;
+}
+
+.log_in:hover{
+    width: 140px;
+    height: 50px;
+    background-color: #5141ff;
 }
 
 .explore {
@@ -126,8 +137,8 @@ section {
 
 .explore:hover {
     background-color: #c2ff3f;
-    box-shadow: 10px 10px 30px rgba(13, 227, 255, 0.6);
-    width: 220px;
+    width: 130px;
+    height: 40px;
     transition: ease-in-out 0.8s;
 
 
